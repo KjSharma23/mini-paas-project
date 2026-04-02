@@ -4,7 +4,7 @@ app = Flask(__name__)
 
 @app.route("/")
 def home():
-    return "Mini PaaS Project is running!"
+    return "Running from FEATURE BRANCH 🚀"
 
 @app.route("/health")
 def health():
