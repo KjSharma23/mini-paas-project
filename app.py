@@ -4,7 +4,7 @@ app = Flask(__name__)
 
 @app.route("/")
 def home():
-    return "Running from FEATURE BRANCH 🚀"
+    return "Running from MAIN BRANCH 🔥"
 
 @app.route("/health")
 def health():

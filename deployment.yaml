@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: mini-paas-container
-        image: mini-paas:v1
-        imagePullPolicy: Never
+        image: kajal2415/mini-paas:latest
+        imagePullPolicy: Always
         ports:
         - containerPort: 5000
